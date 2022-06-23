@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "dropdown of themes",
   "keywords": [
-    "theming", "theme provider", "storybook-addons"
+    "theming",
+    "theme provider",
+    "storybook-addons"
   ],
   "repository": {
     "type": "git",
@@ -45,6 +47,7 @@
     "@babel/preset-typescript": "^7.13.0",
     "@storybook/addon-essentials": "^6.5.8",
     "@storybook/react": "^6.5.8",
+    "@types/styled-components": "^5.1.25",
     "auto": "^10.3.0",
     "babel-loader": "^8.1.0",
     "boxen": "^5.0.1",
@@ -60,9 +63,9 @@
   },
   "peerDependencies": {
     "@storybook/addons": "^6.5.8",
-    "@storybook/api": "^6.5.8",
+    "@storybook/api": "^6.5.9",
     "@storybook/components": "^6.5.8",
-    "@storybook/core-events": "^6.5.8",
+    "@storybook/core-events": "^6.5.9",
     "@storybook/theming": "^6.5.8",
     "react": "^16.8.0 || ^17.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
@@ -84,5 +87,9 @@
       "react"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.1",
+    "styled-components": "^5.3.5"
   }
 }
